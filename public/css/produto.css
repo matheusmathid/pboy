@@ -1,0 +1,83 @@
+#banner{
+	margin-top: -65px;
+	width: 100%;
+	background:#000;
+	text-align: center;
+}
+#product{
+	min-height: 600px;
+	background: #fff;
+}
+.titulo-descritivo {
+    color: #000000;
+    font-family: raleway, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0px;
+}
+.bx-wrapper{
+	border:none !important;
+	box-shadow: none !important;
+}
+
+ .bx-wrapper .bx-pager {
+    bottom: -95px;
+  }
+  
+  .bx-wrapper .bx-pager a {
+    border: solid #ccc 1px;
+    display: block;
+    margin: 0 5px;
+    padding: 3px;
+  }
+  
+  .bx-wrapper .bx-pager a:hover,
+  .bx-wrapper .bx-pager a.active {
+    border: solid #5280DD 1px;
+  }
+  
+  .bx-wrapper {
+    margin-bottom: 120px;
+  }
+
+  #slider-controller{
+  	background: #DBDBDB;
+  	padding: 50px 0 50px 0 ;
+  	margin-top: 50px;
+  }
+
+  #product{
+  	margin-bottom: -50px;
+  	padding-bottom: 0;
+  }
+.bx-default-pager{
+	display: none;
+}
+.bx-wrapper{
+	background: none !important;
+	margin-bottom: 0px !important;
+}
+
+.index-slider {
+	text-align: center;
+	padding: 20px;
+	font-size: 19px;
+	font-weight: 300;
+	cursor: pointer;
+}
+.index-slider p{
+	padding-top: 0px !important;
+	margin: 0 !important;
+	margin-top: -50px !important;
+}
+
+.index-slider img{
+	max-width: 160px;
+}
+@media only screen and (max-width: 600px){
+	.index-slider p{
+		padding-top: 0px !important;
+		margin: -40px 0 30px 0 !important
+	}
+}

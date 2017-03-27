@@ -1,0 +1,16 @@
+.user-login-5 .login-container>.login-content>h1{
+    font-family: 'Raleway', sans-serif;
+}
+.btn-submit{
+    background: #000000 !important;
+    color: #fff!important;
+}
+
+@media (max-width: 420px) {
+    .user-login-5 .login-logo {
+        left: 50%;
+        margin-left: -55px;
+        top: 50%;
+        margin-top: -49px;
+    }
+}

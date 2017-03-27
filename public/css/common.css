@@ -1,0 +1,177 @@
+* {
+ 	font-family: 'Raleway', sans-serif;
+}
+.text-black{
+	color: #000000 !important;
+}
+.text-white{
+	color: #fff !important;
+}
+.site-container{
+	position: relative;
+}
+.img-center{
+	margin: 0 auto;
+}
+.pad-section{
+	margin-top: -20px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+.no-margin{
+	margin-top:0 !important;
+}
+section .section-title{
+	font-size: 37px;
+	font-weight: 300;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 45px;
+}
+.clearfix{
+	clear: both;
+}
+
+footer{
+	padding-bottom: 1px;
+}
+
+footer #logo-image{
+	width: 51px;
+	height: 51px;
+}
+
+
+footer ul li {
+	display: inline-block;
+}
+footer ul li a{
+	padding: 10px;
+	font-size: 10px;
+	text-transform: uppercase;
+	transition: color .3s;
+}
+footer ul li a:hover{
+	color: #937200 !important;
+}
+
+@media (max-width: 600px){
+
+	footer ul li {
+		display: block !important;
+	}
+
+	footer ul.right{
+		float: none!important;
+		text-align: center;
+	}
+}
+
+
+
+/* NAVBAR */
+#nav-header{
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2) !important;
+	transition: background-color 0.4s;
+}
+#nav-header.shadow-control{
+	box-shadow: none !important;
+}
+.nav-container{
+	padding-left: 20px;
+}
+#sidenav-overlay{
+	z-index: 989 !important;
+}
+
+nav ul a{
+	text-transform: uppercase;
+	transition: color .3s;
+}
+nav ul a:hover{
+	color: #937200 !important;
+	background: transparent;
+}
+nav {
+    height: 50px;
+    line-height: 50px;
+}
+
+nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
+    height: 50px;
+    line-height: 50px;
+}
+
+nav .button-collapse i {
+    height: 50px;
+    line-height: 50px;
+}
+
+nav .brand-logo { 
+    font-size: 1.6rem; 
+    padding-top: 15px;
+}
+nav.big-logo .brand-logo img{
+    width: 110px;
+    height: 110px;
+} 
+
+nav .brand-logo img{
+    width: 120px;
+    height: 50px;
+} 
+
+nav .logo-horizontal{
+	display: none;
+}
+
+@media only screen and (min-width: 601px){
+    nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+        height: 80px;
+    	line-height: 80px;
+    }
+
+    nav.big-logo, nav.big-logo .nav-wrapper i, nav.big-logo a.button-collapse, nav.big-logo a.button-collapse i {
+        height: 130px !important;
+    	line-height: 130px !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+	.align-center-mobile{
+		text-align: center;
+	}
+}
+
+.side-nav li {
+	text-align: center;
+}
+.side-nav .logo-menu img{
+	width: 80px;
+    margin-top: 10px;
+}
+
+#custom_btn_playboy{
+    width: 300px;
+}
+#custom_btn_playboy::before{
+animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 0.5) infinite;
+	max-width: 216px !important;
+    left: 40px;
+    max-height: 35px !important;
+    top: 3px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 800px){
+	#custom_btn_playboy{
+   	 	width: 200px;
+	}
+
+	#custom_btn_playboy::before{
+	    animation: pulse-animation 2s cubic-bezier(0.24, 0, 0.38, 0.5) infinite;
+	    max-width: 143px !important;
+	    left: 28px;
+	    max-height: 35px !important;
+	}
+}
+
